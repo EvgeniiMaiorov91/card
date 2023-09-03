@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+
+.root {
+  padding: 13px 20px;
+  border-radius: 8px;
+  color: $colorButtonAndText;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.filled {
+  background-color: $filled;
+  border: none;
+}
+
+.outlined {
+  border: 1px solid $outlinedBorderAndLink;
+  background-color: $background;
+}
